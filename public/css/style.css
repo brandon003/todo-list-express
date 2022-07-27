@@ -1,6 +1,16 @@
 h1{
     color: red;
 }
+
+h1::after{
+
+    content: "Added Content Using CSS";
+}
+
+h1::before{
+    content: "/f1f8";
+}
+
 .completed{
     color: gray;
     text-decoration: line-through;
