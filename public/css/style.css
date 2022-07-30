@@ -13,4 +13,5 @@ h1::after{
 .completed{
     color: gray;
     text-decoration: line-through;
+    font-weight: bold ;
 }
